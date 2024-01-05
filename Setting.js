@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
+global.owner = process.env.OWNER_NUMBER || '917364934516' ;
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://danielpeter:beka10beka10@cluster0.ef032ix.mongodb.net/?retryWrites=true&w=majority" ;
 global.port=8000  ;
 global.audio = '' ; 
@@ -14,7 +14,7 @@ global.github = 'https://github.com/Astropeda/Gnime-lite' ;
 global.location = 'Lagos Nigeria' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
 global.gurl = 'https://github.com/Astropeda' ; 
-global.sudo =  process.env.SUDO || "2348039607375";
+global.sudo =  process.env.SUDO || "2348024031146";
 global.devs = "2348039607375";
 global.mztit = process.env.MZTIT ||"ɢɴɪᴍᴇ-ʟɪᴛᴇ",
 global.Gname = process.env.GNAME ||"ɢɴɪᴍᴇ ᴍᴅ-sᴜᴘᴘᴏʀᴛ",
@@ -26,11 +26,11 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://leadier-umbrellas.000we
 //-------------------------------------
 module.exports = {
   sessionName: process.env.SESSION_ID || 'lite;;;',
-  botname: process.env.BOT_NAME || 'ɢɴɪᴍᴇ ᴍᴅ',
-  ownername:  process.env.OWNER_NAME || `ᴀsᴛʀᴏ`,
+  botname: process.env.BOT_NAME || 'RIJU BOT MD',
+  ownername:  process.env.OWNER_NAME || `RIJU`,
   author:  process.env.PACK_AUTHER || 'ᴀsᴛʀᴏ', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname:  process.env.PACK_NAME || "ɢɴɪᴍᴇ ᴍᴅ" , 
+  packname:  process.env.PACK_NAME || "RIJU MD" , 
   autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true',
