@@ -1,5 +1,5 @@
 {
-  "name": "GNIME-LITE WHATSAPP BOT BY ASTRO",
+  "name": "RIJU BOT MD",
   "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium.",
   "logo": "https://leadier-umbrellas.000webhostapp.com/view-graphic-3d-robot.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot"],
@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "ASTRO"
+      "value": "RIJU"
   },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL Image for bot.",
@@ -59,7 +59,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "2348039607375"
+       "value": "917364934516"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here.",
